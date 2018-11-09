@@ -1,0 +1,258 @@
+/**Velocity for Logo**/
+@font-face {
+	font-family: 'Conv_7fonts.ru_velocity-font';
+	src: url('../fonts/logo_font/7fonts.ru_velocity-font.eot');
+	src: local('☺'), url('../fonts/logo_font/7fonts.ru_velocity-font.woff') format('woff'), url('../fonts/logo_font/7fonts.ru_velocity-font.ttf') format('truetype'), url('../fonts/logo_font/7fonts.ru_velocity-font.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/** Montserrat Bold **/
+@font-face {
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-style: normal;
+	src: url("../fonts/webfonts/Montserrat-Bold.eot") format("eot"),
+	url("../fonts/webfonts/Montserrat-Bold.woff2") format("woff2"),
+	url("../fonts/webfonts/Montserrat-Bold.woff") format("woff");
+}
+
+/** Montserrat Regular **/
+@font-face {
+	font-family: "Montserrat";
+	font-weight: 400;
+	font-style: normal;
+	src: url("../fonts/webfonts/Montserrat-Regular.eot") format("eot"),
+	url("../fonts/webfonts/Montserrat-Regular.woff2") format("woff2"),
+	url("../fonts/webfonts/Montserrat-Regular.woff") format("woff");
+}
+
+/** Montserrat Light **/
+@font-face {
+	font-family: "Montserrat";
+	font-weight: 300;
+	font-style: normal;
+	src: url("../fonts/webfonts/Montserrat-Light.eot") format("eot"),
+	url("../fonts/webfonts/Montserrat-Light.woff2") format("woff2"),
+	url("../fonts/webfonts/Montserrat-Light.woff") format("woff");
+}
+
+/** Montserrat Medium **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: normal;
+    src: url("../fonts/webfonts/Montserrat-Medium.eot") format("eot"),
+         url("../fonts/webfonts/Montserrat-Medium.woff2") format("woff2"),
+         url("../fonts/webfonts/Montserrat-Medium.woff") format("woff");
+}
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	box-sizing: border-box;
+	font-size: 1.6rem;
+	font-family: "Montserrat";
+	font-weight: 400;
+	font-style: normal;
+}
+
+h1{
+	font-family:'Conv_7fonts.ru_velocity-font',Sans-Serif;
+	font-size: 48px;
+	color: #10ac84;
+	padding-top: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-bottom: 70px;
+}
+
+h2{
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 30px;
+	padding-bottom: 25px;
+}
+
+h3{
+	font-family: "Montserrat";
+	font-weight: 300;
+	font-style: normal;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 30px;
+	padding-top: 60px;	
+}
+
+h4{
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-style: normal;
+	margin-bottom: 10px;
+}
+
+hr{
+	text-align: center;
+	width: 50px;
+	height: 2px;
+	background-color: #10ac84;
+	margin: 30px auto 60px;
+}
+
+.hr_footer{
+	width: 90%;
+	height: 1px;
+	background-color: #f4f4f5;
+	margin:50px auto;
+}
+
+/*Description*/
+.wrapper_description{
+	width: 70%;
+	margin: auto;
+	margin-bottom: 90px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.p_description{
+	margin-top: 20px;
+}
+
+.app_description{
+	margin-right: 50px;
+}
+
+.btn{
+	width: 200px;
+	padding: 10px 30px;
+	margin:  auto;
+	border-radius:5px;
+	background-color: #10ac84;
+	font-family: "Montserrat";
+  font-weight: 500;
+  font-style: normal;
+	
+}
+
+.btn:hover{
+	cursor: pointer;
+}
+
+button.help_project{
+	margin-right: 10px;
+	margin-top: 30px;
+}
+
+button.play_video{
+	background-color: #6a7079;
+}
+
+/*Problems App*/
+.wrapper_problems{
+	width: 70%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.problem{
+	width: 45%;
+	margin-bottom: 60px;
+}
+
+.icon_problems{
+	width: 50px;
+	height: 50px;
+}
+
+/*Offers*/
+.wrapper_offers{
+	width: 70%;
+	margin: 30px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.paragraph{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.offers_1, .offers_2,
+.img_container{
+	width:35%;
+}
+.offer{
+	display: flex;
+	margin: 50px 0;
+}
+.icon_2{
+	margin-right: 25px;
+}
+.icon_offers{
+	width: 30px;
+	height: 30px;
+}
+
+.iphone{
+	width: 85%;
+	display: block;
+	margin: auto;
+}
+
+/*Interface*/
+.interface{
+	background-color: #f4f4f5;
+	text-align: center;
+}
+.wrapper_interface{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+img.screen{
+	width: 90%;
+	-webkit-box-shadow: inset hoff voff blur color;
+	box-shadow: inset hoff voff blur f4f4f5;
+}
+/*Footer*/
+.form_input{
+	width: 30%;	
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+input,textarea{
+	border-bottom:1px solid black;
+	padding: 20px 0;
+}
+
+.socials{
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+	margin:30px auto;
+}
+
+.input_submit{
+	margin: 30px auto;
+	border: none;
+}
+
+
